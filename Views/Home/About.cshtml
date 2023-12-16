@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "ASP.NET Core MVC URL Shortener";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    <h2>@ViewData["Title"]</h2>
+
+    <p>Hi, I'm Vishal Gajanan Bhat, a software engineer passionate about building innovative solutions. Let me introduce you to a project I've been working on—creating a URL shortener using ASP.NET Core MVC.</p>
+
+    <h2>
+        Objective</h3>
+
+        <p>This project serves as a practical exploration of ASP.NET Core MVC, aiming to develop a simple yet effective web application.</p>
+
+        <h3>Algorithm Overview</h3>
+
+        <p>Our URL shortener involves storing URLs in a database with numeric IDs, which are then transformed into 'stringified' versions using a different base.</p>
+
+        <p>The process of using the short URL entails:</p>
+        <ul>
+            <li>Converting the 'stringified' ID back to its numeric form.</li>
+            <li>Retrieving relevant data from the database.</li>
+            <li>Redirecting to the original URL using an HTTP redirection.</li>
+        </ul>
+
+        <h3>Implementation Details</h3>
+
+        <p>To achieve this, I've utilized base-62 encoding with a specific alphabet for stringification.</p>
+
+        <h3>Conclusion</h3>
+
+        <p>ASP.NET Core has empowered the creation of this application, sparking further interest and curiosity to delve deeper into the framework's capabilities.</p>
+
+</body>
+</html>
